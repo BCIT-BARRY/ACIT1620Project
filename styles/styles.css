@@ -1,0 +1,26 @@
+/* Explore BC Project - Starter Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.headerz {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornflowerblue;
+}
+
+
+.site-header .logo img {
+    max-height: 100px;
+}
+
+
+.note {
+  background-color: lightblue;
+  padding: 20px;
+
+}
+.leftt{
+    float:left
+}
