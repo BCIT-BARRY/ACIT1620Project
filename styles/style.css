@@ -24,3 +24,6 @@ body {
 .leftt{
     float:left
 }
+main {
+  clear: both;
+}
