@@ -11,8 +11,10 @@ body {
 }
 
 
-.site-header .logo img {
-    max-height: 100px;
+.resize{
+resize: none;
+width: 500px;
+height: 30px;
 }
 
 
