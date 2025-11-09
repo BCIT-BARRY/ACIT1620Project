@@ -29,3 +29,12 @@ height: 30px;
 main {
   clear: both;
 }
+
+.wantedborder {
+    border: 5px solid black;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: goldenrod;
+  }
