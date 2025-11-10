@@ -1,0 +1,51 @@
+/* INSTRUCTIONS;
+Soehne-Dreivivertelfett used for Strong Headings
+Soehne-Halbfett used for Section Headings
+Soehne-Leicht used for Paragraphs
+ */
+@font-face {
+  font-family: 'Soehne-Dreivivertelfett';
+  src: url('../fonts/Soehne-Dreivivertelfett.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Sohne-Halbfett';
+  src: url('../fonts/Sohne-Halbfett.otf') format('truetype');
+}
+@font-face {
+  font-family: 'Soehne-Leicht';
+  src: url('../fonts/Soehne-Leicht.otf') format('truetype');
+}
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    font-family: 'Soehne-Dreivivertelfett', sans-serif;
+}
+.navigationbar ul{
+    font-family: 'Soehne-Dreivivertelfett';
+    list-style-type: none;
+    background-color: #00407a;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navigationbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+/* This allows the buttons on navigationbar to change color on hovor
+barry: get team to decide on 'background-color' or 'color' options*/
+.navigationbar a:hover{
+    color: #d0a86e;
+}
+.navigationbar li{
+    float: left;
+}
