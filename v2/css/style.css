@@ -138,6 +138,12 @@ footer {
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
 }
+.col2 {
+   
+    align-items: flex-start;
+    margin-bottom: auto;
+    
+}
 
 /* Links */
 footer ul {
