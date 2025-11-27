@@ -1,38 +1,19 @@
-/*
-READ INSTRUCTIONS;
+/* INSTRUCTIONS;
 Soehne-Dreivivertelfett used for Strong Headings
 Soehne-Halbfett used for Section Headings
 Soehne-Leicht used for Paragraphs
-*/
+ */
 @font-face {
   font-family: 'Soehne-Dreivivertelfett';
-  src: url('../fonts/Soehne-Dreivivertelfett.otf') format('opentype');
+  src: url('../fonts/Soehne-Dreivivertelfett.otf') format('truetype');
 }
 @font-face {
-  font-family: 'Soehne-Halbfett';
-  src: url('../fonts/Soehne-Halbfett.otf') format('opentype');
+  font-family: 'Sohne-Halbfett';
+  src: url('../fonts/Sohne-Halbfett.otf') format('truetype');
 }
 @font-face {
   font-family: 'Soehne-Leicht';
-  src: url('../fonts/Soehne-Leicht.otf') format('opentype');
-}
-/*
-END OF FONTS
-*/
-
-
-/*
-START OF TOP HEADER
-*/
-header {
-    background-color: #00407a;
-}
-
-.header-logo {
-    width: 300px;
-    height: auto;
-    margin-top: 20px;
-    padding-left: 50px;
+  src: url('../fonts/Soehne-Leicht.otf') format('truetype');
 }
 body{
     margin: 0px;
@@ -59,104 +40,12 @@ h1{
     padding: 15px;
     display: block;
     text-align: center;
-    /* This allows the buttons on navigationbar to change color on hovor
-barry: get team to decide on 'background-color' or 'color' options*/
 }
+/* This allows the buttons on navigationbar to change color on hovor
+barry: get team to decide on 'background-color' or 'color' options*/
 .navigationbar a:hover{
     color: #d0a86e;
 }
 .navigationbar li{
     float: left;
 }
-/* 
-END OF TOP HEADER
-*/
-
-/* 
-START OF MAIN
-*/
-h2 {
-    font-family: "Soehne-Halbfett";
-    font-size: 36px;
-}
-.main-paragraph {
-    font-family: "Soehne-Leicht";
-    font-size: 18px;
-}
-.police-members {
-    width: 450px;
-  display: block; 
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-
-/*
-START OF BOTTOM FOOTER
-*/
-footer {
-    background-color: #00407a;
-    width: 100%;
-    bottom: 0;
-    padding: 25px 0 30px;
-    position: sticky;
-    font-size: 13px;
-    color: white;
-    position: absolute;
-    font-family: 'Soehne-Leicht';
-}
-
-/* Footer Layout */
-.row {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.col {
-    flex-basis: 25%;
-    text-align: left;
-}
-
-/* Logo & Headings */
-.footer-logo {
-    width: 100px;
-}
-
-.col h3 {
-    width: fit-content;
-    margin-bottom: 40px;
-    position: relative;
-}
-.email-id{
-    width: fit-content;
-    border-bottom: 1px solid #ccc;
-    margin: 20px 0;
-}
-
-/* Links */
-footer ul {
-    padding-left: 0;
-    list-style: none;
-    margin: 0;
-}
-
-footer li {
-    margin-bottom: 12px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: #d0a86e;
-}
-/*
-END OF BOTTOM FOOTER
-*/
