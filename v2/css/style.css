@@ -180,6 +180,7 @@ footer a {
 footer a:hover {
     color: #d0a86e;
 }
+<<<<<<< HEAD
 .box {
     max-width: 600px;      
     margin: 20px auto;  
@@ -194,4 +195,50 @@ footer a:hover {
     border-radius: 0.75rem;
     padding: 5%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+=======
+/*
+END OF BOTTOM FOOTER
+*/
+
+/* WANTED SECTION */
+
+.poster-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 0 33px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.wantedborder {
+  flex: 1 1 30%;
+  max-width: 45%;
+  background-color: #ffe920;
+  border: 7px solid black;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.wantedborder h2 {
+  font-size: 35px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.wantedborder img {
+  width: 80%;
+  max-width: 300px;
+  margin: 0 auto;
+  border: 10px solid black;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 15;
+>>>>>>> dev
 }
