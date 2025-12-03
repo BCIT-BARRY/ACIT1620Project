@@ -180,7 +180,6 @@ footer a {
 footer a:hover {
     color: #d0a86e;
 }
-<<<<<<< HEAD
 .box {
     max-width: 600px;      
     margin: 20px auto;  
@@ -195,11 +194,7 @@ footer a:hover {
     border-radius: 0.75rem;
     padding: 5%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-=======
-/*
-END OF BOTTOM FOOTER
-*/
-
+}
 /* WANTED SECTION */
 
 .poster-section {
@@ -240,5 +235,4 @@ END OF BOTTOM FOOTER
 .break {
   flex-basis: 100%;
   height: 15;
->>>>>>> dev
 }
