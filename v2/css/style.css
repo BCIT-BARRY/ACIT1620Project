@@ -189,6 +189,9 @@ footer a:hover {
   
     background: #f5f5f5;  
 }
-/*
-END OF BOTTOM FOOTER
-*/
+.card {
+    background-color: #2a9bdd;
+    border-radius: 0.75rem;
+    padding: 5%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
