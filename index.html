@@ -3,78 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | BCIT Police</title>
-    <link rel="stylesheet" href="css/style.css"/>
+    <title>Home | BCIT Police Service</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
-
-
 <body>
+
 <!-- TOP BAR EMERGENCY -->
 <div class="top-emergency-bar">
     <p><strong>Emergency:</strong> 9-1-1</p>
     <p><strong>Non-Emergency:</strong> 778-926-5739</p>
 </div>
 
-<!-- This is the Footer -->
-<header>
-    <div class="header-container"></div>
-        <img src="images/bcit-main-logo.png" alt="BCIT Police Logo" class="header-logo">
-    </div>
-    <nav class="navigationbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="recruitment.html">Recruitment</a></li>
-            <li><a href="mostwanted.html">Most Wanted</a></li>
-        </ul>
-        <h1>Community policing for BCIT.</h1>
-    </nav>
-</header>
-
-
-
-
-<!-- This is the Main section -->
-<main>
-    <p class="main-paragraph">As a College police service, we focus on the public safety issues that are a priority for the students of BCIT and allocate resources to respond quickly to emerging trends. As a campus service, we are accountable to the students we serve through a police board and we want to know what matters to you.</p>
-    <p class="main-paragraph">BCIT Police Service supports one of Canada’s fastest-growing and most diverse cities – and we will grow to become one of the country’s largest independent police services. Our policing model is founded in a culture of respectful community collaboration and engagement. From Day 1, our organization has set a goal of being diverse and inclusive, and to reflect the community we serve.</p>
-    <img src="images/picture004.png" alt="BCIT Police Members" class="police-members">
-
-</main>
-
-<!-- This is the Bottom Footer -->
-<footer class="row">
-        <div class = "row">
-            <div class="col">
-                <img src="images/bcit-footer-logo.png" class="footer-logo">
-                <p>WARNING:<br>Fictional Police Service.</p>
-            </div>
-            <div class="col">
-                <h3>Office</h3>
-                <p>555 Seymour St</p>
-                <p>Vancouver, B.C.</p>
-                <p class="email-id">information@bcitpolice.ca</p>
-                <h4>604-123-4567</h4>
-            </div>
-            <div class="col">
-                <h3>Links</h3>
+<!-- HEADER -->
+<header class="site-header">
+    <div class="header-inner">
+        <div class="header-left">
+            <img src="images/bcit-main-logo.png" alt="BCIT Police Logo" class="header-logo">
+        </div>
+        <div class="header-right">
+            <nav class="navigationbar">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="recruitment.html">Recruitment</a></li>
                     <li><a href="mostwanted.html">Most Wanted</a></li>
                 </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+    <div class="hero-overlay">
+        <div class="hero-content">
+            <h1>Community policing for BCIT.</h1>
+            <p>Supporting a safe and welcoming campus through respectful community partnerships.</p>
+            <a href="recruitment.html" class="hero-button">Join our team</a>
+        </div>
+    </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<main>
+    <section class="content-wrapper">
+        <h2>Welcome to BCIT Police Service</h2>
+        <p class="main-paragraph">
+            As a college police service, we focus on the public safety issues that are a priority for the
+            students of BCIT and allocate resources to respond quickly to emerging trends.
+            As a campus service, we are accountable to the students we serve through a police board,
+            and we want to know what matters to you.
+        </p>
+        <p class="main-paragraph">
+            BCIT Police Service supports a diverse and growing campus community. Our policing model
+            is founded in a culture of respectful collaboration and engagement. From Day 1, our goal
+            is to be diverse and inclusive, and to reflect the community we serve.
+        </p>
+
+        <div class="home-layout">
+            <div class="home-text-box">
+                <h3>How we serve BCIT</h3>
+                <ul>
+                    <li>Visible patrols around campus buildings and parking lots</li>
+                    <li>Support for students, staff, and visitors</li>
+                    <li>Campus safety education and crime prevention tips</li>
+                    <li>Partnerships with BCIT services and student groups</li>
+                </ul>
             </div>
-            <div class="col2">
-            
-                <h3 style="margin-bottom: auto;">Newsletter</h3>
-                <br>
-                <form>
-                    <input type="email" placeholder="Enter your email ID" required>
-                </form>
+            <div class="home-image-box">
+                <img src="images/picture004.png" alt="BCIT Police Members on Patrol" class="police-members">
             </div>
         </div>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="row">
+    <div class="row">
+        <div class="col">
+            <img src="images/bcit-footer-logo.png" class="footer-logo" alt="BCIT Police Footer Logo">
+            <p><strong>WARNING:</strong><br>Fictional Police Service.</p>
+        </div>
+        <div class="col">
+            <h3>Office</h3>
+            <p>555 Seymour St</p>
+            <p>Vancouver, B.C.</p>
+            <p class="email-id">information@bcitpolice.ca</p>
+            <h4>604-123-4567</h4>
+        </div>
+        <div class="col">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="recruitment.html">Recruitment</a></li>
+                <li><a href="mostwanted.html">Most Wanted</a></li>
+            </ul>
+        </div>
+        <div class="col col2">
+            <h3>Newsletter</h3>
+            <form>
+                <input type="email" placeholder="Enter your email" required>
+            </form>
+        </div>
+    </div>
 </footer>
 
 </body>

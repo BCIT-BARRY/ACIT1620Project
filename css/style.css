@@ -20,7 +20,12 @@ Soehne-Leicht used for Paragraphs
 END OF FONTS
 */
 
-
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: 'Soehne-Leicht', Arial, sans-serif;
+}
 
 /* Emergency Bar */
 .top-emergency-bar {
@@ -31,186 +36,262 @@ END OF FONTS
     display: flex;
     justify-content: center;
     gap: 40px;
-    padding: 10px 0;
-    font-size: 18px;
+    padding: 8px 0;
+    font-size: 16px;
 }
 .top-emergency-bar p {
     margin: 0;
 }
 
-
-
-
-
-
-/*
-START OF TOP HEADER
-*/
-header {
+/* HEADER / TOP NAV */
+.site-header {
     background-color: #00407a;
-     margin-bottom: 20px;
+    color: white;
+}
+
+.header-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
 }
 
 .header-logo {
-    width: 300px;
+    width: 260px;
     height: auto;
-    margin-top: 20px;
-    padding-left: 50px;
 }
-body{
-    margin: 0px;
+
+.header-right {
+    text-align: right;
 }
-main{
-    margin-left: 20px;
-    margin-right: 20px;
+
+.service-name {
+    margin: 0;
+    font-family: 'Soehne-Dreivivertelfett';
+    font-size: 26px;
 }
-h1{
-    text-align: center;
-    font-family: 'Soehne-Dreivivertelfett', sans-serif;
-    color: white;
+
+.service-tagline {
+    margin: 3px 0 10px;
+    font-family: 'Soehne-Leicht';
+    font-size: 14px;
 }
-.navigationbar ul{
+
+/* NAVIGATION */
+.navigationbar ul {
     font-family: 'Soehne-Dreivivertelfett';
     list-style-type: none;
-    background-color: #00407a;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 5px;
+    justify-content: flex-end;
 }
-.navigationbar a{
+
+.navigationbar li {
+    list-style: none;
+}
+
+.navigationbar a {
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px 14px;
     display: block;
     text-align: center;
-    /* This allows the buttons on navigationbar to change color on hovor
-barry: get team to decide on 'background-color' or 'color' options*/
+    font-size: 14px;
+    border-bottom: 3px solid transparent;
 }
-.navigationbar a:hover{
-    color: #d0a86e;
+
+.navigationbar a:hover,
+.navigationbar a.active {
+    border-bottom-color: #d0a86e;
 }
-.navigationbar li{
-    float: left;
+
+/* HEADINGS & TEXT */
+h1 {
+    font-family: 'Soehne-Dreivivertelfett', sans-serif;
+    color: #00407a;
+    margin: 0 0 10px;
 }
-/* 
-END OF TOP HEADER
-*/
 
+h2 {
+    font-family: "Soehne-Halbfett";
+    font-size: 32px;
+    margin-top: 0;
+    color: #00407a;
+}
 
+h3 {
+    font-family: "Soehne-Halbfett";
+    font-size: 22px;
+    margin-top: 0;
+}
 
-
-
-
-
-
-
-
-
-
-/* 
-START OF MAIN
-*/
 p {
     font-family: "Soehne-Leicht";
     font-size: 18px;
 }
-h2 {
-    font-family: "Soehne-Halbfett";
-    font-size: 36px;
-}
-h3 {
-    font-family: "Soehne-Halbfett";
-    font-size: 24px;
-}
+
 .main-paragraph {
     font-family: "Soehne-Leicht";
     font-size: 18px;
 }
-.police-members {
-    width: 450px;
-  display: block; 
-  margin-left: auto;
-  margin-right: auto;
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    min-height: 320px;
+    background-image:
+        linear-gradient(rgba(0, 33, 64, 0.7), rgba(0, 33, 64, 0.7)),
+        url('../images/picture004.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
 }
 
+.hero-overlay {
+    width: 100%;
+}
 
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: white;
+}
 
+.hero h1 {
+    color: white;
+    font-size: 36px;
+    text-align: left;
+}
 
+.hero p {
+    margin-top: 10px;
+    max-width: 550px;
+}
 
+.hero-button {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 10px 20px;
+    background-color: #d0a86e;
+    color: #00233d;
+    text-decoration: none;
+    font-family: 'Soehne-Dreivivertelfett';
+    font-size: 14px;
+    border-radius: 4px;
+}
 
+.hero-button:hover {
+    background-color: #b88b4f;
+}
 
+/* MAIN CONTENT WRAPPER */
+main {
+    margin: 40px 0;
+}
 
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px 25px 35px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 8px;
+}
 
-/*
-START OF BOTTOM FOOTER
-*/
+/* HOME LAYOUT (TEXT + IMAGE) */
+.home-layout {
+    display: flex;
+    gap: 30px;
+    margin-top: 25px;
+    align-items: flex-start;
+}
+
+.home-text-box {
+    flex: 2;
+}
+
+.home-text-box ul {
+    padding-left: 20px;
+}
+
+.home-image-box {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.police-members {
+    width: 100%;
+    max-width: 380px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* FOOTER */
 footer {
     background-color: #00407a;
     width: 100%;
-    bottom: 0;
     padding: 25px 0 30px;
-    position: sticky;
     font-size: 13px;
     color: white;
-    position: absolute;
     font-family: 'Soehne-Leicht';
+    margin-top: 40px;
 }
-resize {
-    width: 200px;
-    height: 300px;
-}
-/* Footer Layout */
+
 .row {
     width: 100%;
-    margin: auto;
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: space-between;
     position: relative;
 }
-.align {
-    margin-left: auto;
-    flex-wrap: wrap;
-   
-}
 
-.h4 {
-  color: #333; /* Dark gray color */
-  font-size: 24px; /* Sets the font size */
-  font-weight: bold; /* Makes the text bold */
-  margin-bottom: 10px; /* Adds space below the heading */
-}
 .col {
     flex-basis: 25%;
     text-align: left;
+    margin-bottom: 15px;
 }
 
-/* Logo & Headings */
 .footer-logo {
     width: 100px;
 }
-.align {
-    text-align: left;
-}
+
 .col h3 {
     width: fit-content;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     position: relative;
 }
-.email-id{
+
+.email-id {
     width: fit-content;
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
 }
+
 .col2 {
-   
     align-items: flex-start;
     margin-bottom: auto;
-    
 }
 
-/* Links */
+/* Footer links */
 footer ul {
     padding-left: 0;
     list-style: none;
@@ -229,23 +310,25 @@ footer a {
 footer a:hover {
     color: #d0a86e;
 }
+
+/* Generic box/card (still used elsewhere) */
 .box {
     max-width: 600px;      
     margin: 20px auto;  
     padding: 20px;        
     border: 2px solid #4a6cf7;   
     border-radius: 10px;  
-  
     background: #f5f5f5;  
 }
+
 .card {
     background-color: #2a9bdd;
     border-radius: 0.75rem;
     padding: 5%;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-/* WANTED SECTION */
 
+/* WANTED SECTION */
 .poster-section {
   display: flex;
   flex-wrap: wrap;
@@ -286,8 +369,6 @@ footer a:hover {
   height: 15;
 }
 
-
-
 /* Recruitment Gallery */
 .recruitment-gallery {
     margin-top: 40px;
@@ -322,4 +403,40 @@ footer a:hover {
     width: 100%;
     border-radius: 8px;
     border: 3px solid #00407a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .header-right {
+        text-align: left;
+        width: 100%;
+    }
+
+    .navigationbar ul {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .home-layout {
+        flex-direction: column;
+    }
+
+    .col {
+        flex-basis: 100%;
+    }
+
+    .hero-content {
+        padding: 30px 15px;
+    }
+
+    .content-wrapper {
+        margin: 0 10px;
+        padding: 20px 15px 25px;
+    }
 }
