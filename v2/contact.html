@@ -21,18 +21,19 @@
             <li><a href="recruitment.html">Recruitment</a></li>
             <li><a href="mostwanted.html">Most Wanted</a></li>
         </ul>
-        <h1>Contact Us</h1>
+        <h1>Community policing for BCIT.</h1>
     </nav>
 </header>
 
-<!-- Emergency contact info -->
-    <main>
+
+    <main style="fontf;">
         <h2 style="text-align: center;">Contact &amp; Emergency Information</h2>
 
-    <section style="text-align: center;">
-        <h3>Emergency</h3>
-        <p><strong>Emergency (real):</strong> Call 9-1-1</p>
-        <p><strong>On-campus emergency (fictional):</strong> 604-111-2222</p>
+    <section style="text-align: center; ">
+        
+        <h3><p><strong>Emergency (real):</strong> Call 9-1-1</p></h3>
+        <p>On-campus emergency (fictional): 604-111-2222</p>
+        </section>
     </section>
 
     <section style="text-align: center;">
@@ -51,8 +52,8 @@
     <div style="text-align: left;">
     
 <!-- select label/form -->
-    <label for="crime"><H4>Category of Crime</H4></label>
-    <select  name="Crime" id="crime">
+    <label="crime"><strong style="font-size: larger;">Category of Crime</strong></label><br>
+    <select  name="Crime" id="crime" class="labelboxes">
         
   <option value="Theft">Theft</option>
   <option value="Assualt">Assualt</option>
@@ -61,22 +62,23 @@
   <option value="Other"> Other</option>
     </select>
     </div>
-    <div style=" display: flex; text-align: left; align-items: flex-start; margin-bottom: 0; margin-left: 20;">
-        
-    <div>
-        <label for="Date"> <h4>Date of Incident</h4> </label>
-        <input id="Date" type="date">
-        </div>
-          <div style="display: inline-block; margin-left: 20px; ">
-        <label for="time"> <h4>Time of Incident</h4> </label>
-        <input id="time" type="time"></div>
+    <br>
+     <div style="display:flex; gap:60px; margin-bottom:15px;">
         <div>
-            <img style="width: 250px; padding-left: 20px;" src="images/images.png" alt="" >
+            <label for="date"> <strong>Date of Incident </strong></label><br>
+            <input type="date" id="date" class="labelboxes">
         </div>
-    </div>
-    <div style="margin-top: -120px; padding-bottom: 0px;">
-                <label for="Location"><h4>Location</h4></label>
-                <select name="Location" id="Location">
+        <div>
+            <label for="time"><strong>Time of Incident</strong></label><br>
+            <input type="time" id="time" class="labelboxes">
+        </div>
+    
+       
+        </div>
+    
+    <div>
+                <label for="Location"><strong>Location</strong></label><br>
+                <select name="Location" id="Location" class="labelboxes">
                     <option value="Downtown">Downtown</option>
                     <option value="Burnaby">Burnaby</option>
                 </select>
@@ -94,18 +96,19 @@
 
 <div style="display: inline-block; margin-right: 20px; ">
     <label for="anon">Report Annonymously</label>
-    <input type="checkbox"
+    <input type="checkbox">
+
 </div>
 
 </div>
 </div>
 <br>
 <div style="text-align: center;">
-<input type="submit">
+<input type="submit" style="width: 300px; height: 25px; border-radius: 10px;">
     </div>
 </form>
 </div>
-
+    
 
     </main>
 
