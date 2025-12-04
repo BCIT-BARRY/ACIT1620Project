@@ -150,38 +150,41 @@
     </section>
 </main>
 
-<!-- FOOTER (same as index) -->
-<footer class="row">
-    <div class="row">
-        <div class="col">
-            <img src="images/bcit-footer-logo.png" class="footer-logo" alt="BCIT Footer Logo">
-            <p><strong>WARNING:</strong><br>Fictional Police Service.</p>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <!-- Brand / warning -->
+        <div class="footer-section footer-brand">
+            <img src="images/bcit-footer-logo.png" class="footer-logo" alt="BCIT Police Footer Logo">
+            <p class="footer-warning"><strong>WARNING:</strong><br>Fictional Police Service.</p>
         </div>
-        <div class="col">
+
+        <!-- Office info -->
+        <div class="footer-section">
             <h3>Office</h3>
             <p>555 Seymour St</p>
             <p>Vancouver, B.C.</p>
-            <p class="email-id">information@bcitpolice.ca</p>
-            <h4>604-123-4567</h4>
+            <p><a href="mailto:information@bcitpolice.ca">information@bcitpolice.ca</a></p>
+            <p>604-123-4567</p>
         </div>
-        <div class="col">
+
+        <!-- Links + newsletter -->
+        <div class="footer-section">
             <h3>Links</h3>
-            <ul>
+            <ul class="footer-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="recruitment.html">Recruitment</a></li>
                 <li><a href="mostwanted.html">Most Wanted</a></li>
             </ul>
-        </div>
-        <div class="col2">
-            <h3 style="margin-bottom: auto;">Newsletter</h3>
-            <br>
-            <form>
-                <input type="email" placeholder="Enter your email ID" required>
+
+            <h3 class="footer-newsletter-title">Newsletter</h3>
+            <form class="footer-form">
+                <input type="email" placeholder="Enter your email" required>
             </form>
         </div>
     </div>
 </footer>
+
 
 </body>
 </html>
