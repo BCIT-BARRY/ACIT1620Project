@@ -110,6 +110,10 @@ END OF TOP HEADER
 /* 
 START OF MAIN
 */
+p {
+    font-family: "Soehne-Leicht";
+    font-size: 18px;
+}
 h2 {
     font-family: "Soehne-Halbfett";
     font-size: 36px;
