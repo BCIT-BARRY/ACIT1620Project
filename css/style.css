@@ -29,7 +29,7 @@ START OF TOP HEADER
 */
 header {
     background-color: #00407a;
-     margin-bottom: 20px;
+     
 }
 
 .header-logo {
@@ -387,6 +387,16 @@ h1, h2, h3, p {
   
     background: #f5f5f5;  
 }
+.box2 {
+    max-width: auto;      
+    margin: 20px auto;  
+    padding: 20px;        
+    border: 2px solid #424242;;   
+    border-radius: 10px;  
+  
+    background: #f5f5f5;  
+}
+
 
 
 
