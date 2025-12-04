@@ -373,3 +373,30 @@ END OF BOTTOM FOOTER
     margin: 5px 0 0;
     font-size: 16px;
 }
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    max-width: 550px;      
+    margin: 20px auto;  
+    padding: 20px;        
+    border: 2px solid #424242;;   
+    border-radius: 10px;  
+  
+    background: #f5f5f5;  
+}
+
+
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+.labelboxes{
+    border-radius: 10px;
+    height: 25px;
+    width: 200px;
+
+}
